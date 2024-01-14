@@ -8,7 +8,6 @@
       href="./images/favicon-32x32.png"
       type="image/x-icon"
     />
-    k
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -22,5 +21,61 @@
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
 
-  <body></body>
+  <body>
+    <div class="nft-preview-card">
+      <img
+        class="nft-preview-card__img"
+        src="./images/image-equilibrium.jpg"
+        alt="Equilibrium"
+        width="302"
+        height="302"
+        aria-hidden="true"
+      />
+      <h1 class="nft-preview-card__heading">Equilibrium #3429</h1>
+      <p class="nft-preview-card__text">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+
+      <div class="nft-preview-card__box">
+        <div class="nft-preview-card__box--stats">
+          <img
+            src="./images/icon-ethereum.svg"
+            alt="Icon-ethereum"
+            width="11"
+            height="18"
+            aria-hidden="true"
+          />
+          <span class="nft-preview-card__box--numeric">0.041 ETH</span>
+        </div>
+
+        <div class="nft-preview-card__date">
+          <img
+            class="nft-preview-card__icon"
+            src="./images/icon-clock.svg"
+            alt="Icon-clock"
+            width="16"
+            height="16"
+            aria-hidden="true"
+          />
+          <span class="">3 days left</span>
+        </div>
+      </div>
+
+      <div class="nft-preview-card__profile">
+        <img
+          class="nft-preview-card__icon"
+          src="./images/image-avatar.png"
+          alt="Image-Avatar"
+          width="33"
+          height="33"
+          aria-hidden="true"
+        />
+
+        <div class="nft-preview-card__profile--part">
+          <span class="nft-preview-card__profile--creation">Creation of</span>
+          <p class="nft-preview-card__profile--description">Jules Wyvern</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
