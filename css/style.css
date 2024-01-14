@@ -234,6 +234,7 @@ p {
 @media only screen and (max-width: 350px) {
   .nft-preview-card {
     max-width: 300px;
+    width: 100%;
     padding: 20px 21px 25px 20px;
   }
 
